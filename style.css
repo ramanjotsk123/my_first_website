@@ -699,3 +699,72 @@ header {
     }
 }
 
+/* OUR ACHIEVERS SECTION */
+.achievers-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f5f7fb;
+}
+
+.achievers-section h2 {
+    font-size: 32px;
+    color: #17365d;
+    margin-bottom: 10px;
+}
+
+.achievers-section > p {
+    color: #555;
+    margin-bottom: 35px;
+}
+
+.student-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.student-card {
+    background: white;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.student-photo {
+    height: 220px;
+    background: #e4eaf2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #53657a;
+    font-weight: bold;
+}
+
+.student-card h3 {
+    color: #17365d;
+    margin: 18px 0 10px;
+}
+
+.student-card p {
+    color: #555;
+    margin: 7px 0;
+}
+
+@media (max-width: 600px) {
+    .achievers-section {
+        padding: 40px 15px;
+    }
+
+    .achievers-section h2 {
+        font-size: 26px;
+    }
+
+    .student-photo {
+        height: 200px;
+    }
+}
+
+
