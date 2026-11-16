@@ -670,3 +670,32 @@ nav a:hover {
     object-fit: contain;
     display: block;
 }
+
+/* LARGE KALRA'S TUTORIALS LOGO */
+.site-logo {
+    width: 190px !important;
+    height: 140px !important;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Give the logo more space in the header */
+header {
+    min-height: 165px;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+/* Mobile adjustment */
+@media (max-width: 600px) {
+    .site-logo {
+        width: 160px !important;
+        height: 125px !important;
+    }
+
+    header {
+        padding: 12px 15px;
+    }
+}
+
